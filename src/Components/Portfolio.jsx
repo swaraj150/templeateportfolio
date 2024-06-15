@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/development-4536630_1280.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Developer coding on his desktop";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Job Board",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "An integrated platform for job seekers and employers. Here employers can post job openings and job seekers can search and apply for jobs. ",
+    url: "https://github.com/swaraj150/JobBoard",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Bank app",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A secured bank website, where users can register themselves and perform various operations like checking balance, sending and receiving money from other users.",
+    url: "https://github.com/swaraj150/Bank-app",
   },
   {
-    title: "My Resume Site",
+    title: "Face recognition based attendance system",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Developed a real time face recognition system. Based on the results, it automatically marks your attendance.",
+    url: "https://github.com/swaraj150/Face-recognition-webapp",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Text editor",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Created a text editor in c++ from scratch without any using any libraries. It includes basic operations like copy-paste, undo-redo, etc.",
+    url: "https://github.com/swaraj150/texteditor",
   },
 ];
 
